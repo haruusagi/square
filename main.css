@@ -1,0 +1,76 @@
+body{
+    background-color: lightpink;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translate(-10vw, -10vw);
+}
+.square__top{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    transform: translateZ(-10vw);
+    background-color: white;
+    border: 1px solid brown;
+    opacity: 0.5;
+
+
+}
+.square__front{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    transform: translateY(10vw) rotateX(90deg);
+    background-color: white;
+    border: 1px solid brown;
+    opacity: 0.5;
+
+}
+.square__back{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    transform: translateY(-10vw) rotateX(-90deg);
+    background-color: white;
+    border: 1px solid brown;
+    opacity: 0.5;
+}
+.square__under{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    transform: translateZ(10vw) ;
+    background-color: white;
+    border: 1px solid brown;
+    opacity: 0.5;
+}
+.square__left{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    transform: translate(-10vw) rotateY(-90deg);
+    background-color: white;
+    border: 1px solid brown;
+    opacity: 0.5;
+
+}
+.square__right{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    transform: translate(10vw) rotateY(90deg);
+    background-color: white;
+    border: 1px solid brown;
+    opacity: 0.5;
+}
+p{
+    text-align: center;
+    font-size: 100px;
+}

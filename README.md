@@ -1,5 +1,6 @@
 # square
 
+https://haruusa-square.netlify.com/
 
 カーソルに合わせて動く立方体を作りました
 js全くわかりません
